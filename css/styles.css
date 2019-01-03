@@ -104,6 +104,13 @@
   }
 }
 
+.fadeInFromNone {
+  -webkit-animation: fadeInFromNone 1s ease-out;
+  -moz-animation: fadeInFromNone 1s ease-out;
+  -o-animation: fadeInFromNone 1s ease-out;
+  animation: fadeInFromNone 1s ease-out;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -249,7 +256,8 @@ ul li {
 }
 
 .content-home .name {
-  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
   line-height: 50px;
@@ -259,7 +267,8 @@ ul li {
 }
 
 .content-home .subtitle {
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   font-weight: 200;
   margin-bottom: 26px;
   color: #666;
@@ -274,7 +283,8 @@ ul li {
 }
 
 .content-home .nav .item a {
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   display: inline-block;
   text-align: center;
   text-decoration: none;
